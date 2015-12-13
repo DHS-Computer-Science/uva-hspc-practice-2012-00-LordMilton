@@ -1,6 +1,6 @@
 # Practice 2012 - 00: Roll Call
 
-## Bacground
+## Background
 Mr. Petersworth is a 10th grade history teacher at True Blue High School.
 The principal of True Blue gives Mr. Petersworth a list of the students in
 his class with their first and last names on separate lines. This is slow for
