@@ -7,7 +7,7 @@ public class StudentNames
         Scanner scan = new Scanner(System.in);
     
         int nNames = scan.nextInt(); scan.nextLine();
-        String[][] array = new String[2][nNames];
+        String[][] array = new String[nNames][2];
         
         for(int i = 0; i < nNames; i++)
         {
@@ -20,10 +20,10 @@ public class StudentNames
         for(int i = 0; i < nNames; i++)
         {
             System.out.print("Case "+ (i+1) +": ");
-            for(int j = 0; j < 2; j++)
+            for(int j = 1; j >= 0; j--)
             {
                 System.out.print(array[i][j]);
-                if(j == 0)
+                if(j == 1)
                     System.out.print(", ");
             }
             System.out.println();
