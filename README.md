@@ -10,11 +10,13 @@ on the same line, with the last name before the first name.
 ## Description
 ### Input
 The first line of input is the number of test cases that follow. Each test
-case contains two strings on separate lines, with the first string being the student’s first name and the
-second string as the student’s last name. Both the first and last name will be less than 20 characters long.
+case contains two strings on separate lines, with the first string being the
+student’s first name and the second string as the student’s last name. Both
+the first and last name will be less than 20 characters long.
 ### Output
-For each case, output the line “Case x:” where x is the case number, on a single line. This is followed by
-the full name entered, using the format “Last, First”.
+For each case, output the line “Case x:” where x is the case number, on a
+single line. This is followed by the full name entered,
+using the format "Last, First".
 
 ## Sample
 
